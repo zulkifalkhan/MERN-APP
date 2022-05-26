@@ -12,3 +12,6 @@ const errorHandler = (err,req,res,next)=>{
 module.exports={
     errorHandler,
 }
+
+//middleware is a function which runs between client server cycle 
+//req res cycle
